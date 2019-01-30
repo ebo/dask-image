@@ -8,6 +8,8 @@ import scipy.ndimage
 
 from . import _utils
 from . import _ops
+from . import _numba_heapq
+from . import _numba_watershed
 
 
 @_utils._update_wrapper(scipy.ndimage.binary_closing)
